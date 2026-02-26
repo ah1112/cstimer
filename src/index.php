@@ -49,6 +49,7 @@
   <script type="text/javascript" src="js/scramble/clock.js"></script>
   <script type="text/javascript" src="js/scramble/333lse.js"></script>
   <script type="text/javascript" src="js/scramble/mgmlsll.js"></script>
+  <script type="text/javascript" src="js/scramble/mgms2l.js"></script>
   <script type="text/javascript" src="js/scramble/megaminx.js"></script>
   <script type="text/javascript" src="js/scramble/scramble_fto.js"></script>
   <script type="text/javascript" src="js/scramble/redi.js"></script>
