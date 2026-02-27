@@ -315,7 +315,8 @@ var scrdata = [
 		['last slot + last layer', "mlsll", 0],
 		['随机状态', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['金字塔', [
 		["随机状态 (WCA)", "pyrso", 10],

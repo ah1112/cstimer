@@ -315,7 +315,8 @@ var scrdata = [
 		['sista f2l paret + sista lagret', "mlsll", 0],
 		['Slumpmässigt tillstånd', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['Pyraminx', [
 		["Slumpmässigt tillstånd (WCA)", "pyrso", 10],

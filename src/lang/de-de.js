@@ -315,7 +315,8 @@ var scrdata = [
 		['letzer Slot + letzte Schicht', "mlsll", 0],
 		['zufälliger Status', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['Pyraminx', [
 		["zufälliger Status (WCA)", "pyrso", 10],

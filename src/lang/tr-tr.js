@@ -315,7 +315,8 @@ var scrdata = [
 		['son bölme + son katman', "mlsll", 0],
 		['Rastgele Durum', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['Pyraminx', [
 		["Rastgele Durum (WCA)", "pyrso", 10],

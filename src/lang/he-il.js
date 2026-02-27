@@ -315,7 +315,8 @@ var scrdata = [
 		['סלוט אחרון + שכבה אחרונה', "mlsll", 0],
 		['random state', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['פיראמינקס', [
 		["random state (WCA)", "pyrso", 10],

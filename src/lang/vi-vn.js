@@ -315,7 +315,8 @@ var scrdata = [
 		['last slot + tầng cuối', "mlsll", 0],
 		['random state', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['Rubik kim tử tháp (Pyraminx)', [
 		["random state (WCA)", "pyrso", 10],

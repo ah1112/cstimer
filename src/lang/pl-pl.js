@@ -315,7 +315,8 @@ var scrdata = [
 		['ostatni para + ostatnia warstwa', "mlsll", 0],
 		['stan losowy', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['Pyraminx', [
 		["stan losowy (WCA)", "pyrso", 10],

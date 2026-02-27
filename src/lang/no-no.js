@@ -315,7 +315,8 @@ var scrdata = [
 		['Siste plass + siste lag', "mlsll", 0],
 		['tilfeldig tilstand', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['Pyraminx', [
 		["tilfeldig tilstand (WCA)", "pyrso", 10],

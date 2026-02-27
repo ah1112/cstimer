@@ -315,7 +315,8 @@ var scrdata = [
 		['맨 위층+홈통 1개', "mlsll", 0],
 		['무작위 상태', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['피라밍크스', [
 		["무작위 상태 (WCA)", "pyrso", 10],

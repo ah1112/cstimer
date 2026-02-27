@@ -315,7 +315,8 @@ var scrdata = [
 		['utolsó pár + utolsó réteg', "mlsll", 0],
 		['véletlen állapot', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['Pyraminx', [
 		["véletlen állapot (WCA)", "pyrso", 10],

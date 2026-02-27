@@ -315,7 +315,8 @@ var scrdata = [
 		['最後一個F2L+頂層', "mlsll", 0],
 		['隨機狀態', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['金字塔', [
 		["隨機狀態 (WCA)", "pyrso", 10],

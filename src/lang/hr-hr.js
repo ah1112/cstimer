@@ -315,7 +315,8 @@ var scrdata = [
 		['zadnji slot + zadnji sloj', "mlsll", 0],
 		['nasumično stanje', "mgmso", 0],
 		['PLL', "mgmpll", 0],
-		['Last Layer', "mgmll", 0]
+		['Last Layer', "mgmll", 0],
+        ["S2L", "mgms2l", 48]
 	]],
 	['Pyraminx', [
 		["nasumično stanje (WCA)", "pyrso", 10],
