@@ -316,7 +316,8 @@ var scrdata = [
 		['estat aleatori', "mgmso", 0],
 		['PLL', "mgmpll", 0],
 		['Last Layer', "mgmll", 0],
-		['S2L', "mgms2l", 48]
+		['S2L', "mgms2l", 48],
+        ["3-generator F,R,U", "mgml3f", 36]
 	]],
 	['Pyraminx', [
 		["estat aleatori (WCA)", "pyrso", 10],

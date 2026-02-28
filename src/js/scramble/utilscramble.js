@@ -464,6 +464,8 @@
 				return adjScramble(["F", "B", "U", "D", "L", "DBR", "DL", "BR", "DR", "BL", "R", "DBL"], [0x554, 0xaa8, 0x691, 0x962, 0xa45, 0x58a, 0x919, 0x626, 0x469, 0x896, 0x1a5, 0x25a], len, minxsuff);
 			case "mgms2l": // Megaminx (old style)
 				return adjScramble(["F", "R", "BR", "BL", "L", "U"], [0x32, 0x25, 0x2a, 0x34, 0x29, 0x1f], len, minxsuff);
+			case "mgml3f": // Megaminx (old style)
+				return adjScramble(["F", "R", "U"], [0x7, 0x7, 0x7], len, minxsuff);
 			case "mgmp": // Megaminx (Pochmann)
 				return pochscramble(10, Math.ceil(len / 10));
 			case "mgmc": // Megaminx (Carrot)
@@ -586,6 +588,6 @@
 	}
 
 
-	scrMgr.reg(['15p', '15pm', '15pat', 'clkwca', 'clkwcab', 'clknf', 'clk', 'clkc', 'clke', 'giga', 'mgmo', 'mgmp', 'mgmc', 'mgms2l', 'klmp', 'heli', 'helicv', 'heli2x2', 'heli2x2g', 'redi', 'redim', 'pyrm', 'prcp', 'mpyr', 'r3', 'r3ni', 'sq1h', 'sq1t', 'sq2', 'ssq1t', 'bsq', 'ctico', 'dmdso', '-1', '333noob', 'lol'], utilscramble);
+	scrMgr.reg(['15p', '15pm', '15pat', 'clkwca', 'clkwcab', 'clknf', 'clk', 'clkc', 'clke', 'giga', 'mgmo', 'mgmp', 'mgmc', 'mgms2l', 'mgml3f', 'klmp', 'heli', 'helicv', 'heli2x2', 'heli2x2g', 'redi', 'redim', 'pyrm', 'prcp', 'mpyr', 'r3', 'r3ni', 'sq1h', 'sq1t', 'sq2', 'ssq1t', 'bsq', 'ctico', 'dmdso', '-1', '333noob', 'lol'], utilscramble);
 
 })(mathlib.rn, mathlib.rndEl, scrMgr.mega);
