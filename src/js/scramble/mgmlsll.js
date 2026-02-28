@@ -64,19 +64,28 @@
 				var co = cocord.set([], mathlib.rn(243)); co[0] += co[5]; co[5] = 0;
 				edge = epcord.get(mathlib.rndPerm(5, true).concat([5])) * 32 + eocord.get(eo);
 				corn = cpcord.get(mathlib.rndPerm(5, true).concat([5])) * 243 + cocord.get(co);
+			} else if (type == 'mgml2f') {
+				edge = mathlib.rn(32 * 360);
+				corn = mathlib.rn(243 * 360);				
 			}
 		} while (edge == 0 && corn == 0);
 		var sol = solv.search([edge, corn], 0);
 		var ret = [];
 		for (var i = 0; i < sol.length; i++) {
 			var move = sol[i];
-			ret.push(["U", "R U", "F' U"][move[0]] + ["", "2", "2'", "'"][move[1]] + ["", " R'", " F"][move[0]]);
+			if (type == 'mgml2f') {
+				ret.push(["U", "R U", "F"][move[0]] + ["", "2", "2'", "'"][move[1]] + ["", " R'", ""][move[0]]);
+			}
+			else {
+				ret.push(["U", "R U", "F' U"][move[0]] + ["", "2", "2'", "'"][move[1]] + ["", " R'", " F"][move[0]]);
+			}
 		}
 		return ret.join(" ").replace(/ +/g, ' ');
 	}
 
 	scrMgr.reg('mlsll', getMinxLSScramble)
 		('mgmpll', getMinxLSScramble)
-		('mgmll', getMinxLSScramble);
+		('mgmll', getMinxLSScramble)
+		('mgml2f', getMinxLSScramble);
 
 })();

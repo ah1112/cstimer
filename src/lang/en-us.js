@@ -316,7 +316,8 @@ var scrdata = [
 		['random state', "mgmso", 0],
 		['PLL', "mgmpll", 0],
 		['Last Layer', "mgmll", 0],
-		['S2L', "mgms2l", 48]
+		['S2L', "mgms2l", 48],
+		['Last 2 faces', "mgml2f", 0]
 	]],
 	['Pyraminx', [
 		["random state (WCA)", "pyrso", 10],
